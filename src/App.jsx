@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-       {/* <Sidebar></Sidebar> */}
+       <Sidebar></Sidebar>
        <Account></Account>
     </>
    

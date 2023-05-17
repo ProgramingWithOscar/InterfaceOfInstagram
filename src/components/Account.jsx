@@ -50,7 +50,7 @@ const Account = () => {
         </div>
               {/* Botones: follow - message - agregar */}
 
-              <div className="flex  gap-2 px-3">
+              <div className="flex  gap-2 px-3 mb-6">
                     <div>
                         <button className="bg-[#1978f2] text-white px-2 py-1 rounded-lg w-40">Follow</button>
                     </div>
@@ -62,13 +62,41 @@ const Account = () => {
                     </div>
                 </div>
                 {/* Historias destacadas */}
-               <div className="grid grid-cols-5">
-                <div>1</div>
-                <div>1</div>
-                <div>1</div>
-                <div>1</div>
-                <div>1</div>
+               <div className="grid grid-cols-5 px-3 mb-4">
+                <div>
+                    <img src="https://images.pexels.com/photos/2896668/pexels-photo-2896668.jpeg?cs=srgb&dl=pexels-trace-hudson-2896668.jpg&fm=jpg" className="rounded-full w-14 h-14 ml-1 border-gray-500 border p-[2px]"></img>
+                   <span className="text-sm">Memories</span>  
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/2896668/pexels-photo-2896668.jpeg?cs=srgb&dl=pexels-trace-hudson-2896668.jpg&fm=jpg" className="rounded-full w-14 h-14 ml-1 border-gray-500 border p-[2px]"></img>
+                    <span className="text-sm">Memories</span>  
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/2896668/pexels-photo-2896668.jpeg?cs=srgb&dl=pexels-trace-hudson-2896668.jpg&fm=jpg" className="rounded-full w-14 h-14 ml-1 border-gray-500 border p-[2px]"></img>
+                    <span className="text-sm">Memories</span>  
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/2896668/pexels-photo-2896668.jpeg?cs=srgb&dl=pexels-trace-hudson-2896668.jpg&fm=jpg" className="rounded-full w-14 h-14 ml-1 border-gray-500 border p-[2px]"></img>
+                    <span className="text-sm">Memories</span>  
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/2896668/pexels-photo-2896668.jpeg?cs=srgb&dl=pexels-trace-hudson-2896668.jpg&fm=jpg" className="rounded-full w-14 h-14 ml-1 border-gray-500 border p-[2px]"></img>
+                    <span className="text-sm">Memories</span>  
+                </div>
                </div> 
+                {/* More icons */}
+               <div className="flex justify-between px-3">
+                <div >
+                    <img src="https://static.vecteezy.com/system/resources/previews/020/389/064/non_2x/square-grid-icon-free-png.png" className="w-6 h-7"></img>
+                </div>
+                <div>
+                    <img src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/instagram-reels-icon.png" className="w-6 h-7"></img>
+                </div>
+
+                <div>
+                    <img src="https://cdn2.iconfinder.com/data/icons/instagram-outline/19/11-512.png" className="w-7 h-7"></img>
+                </div>
+               </div>
             </div>
     );
 }
